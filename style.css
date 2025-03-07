@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff69b4; /* Bright pink */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    min-height: calc(100vh - 160px); /* Adjusted to ensure the footer doesn't overlap */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #f11aed;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px; /* Add margin to create space */
+}
+
+.banner {
+    height: 175px; /* Reduced height to make the banner 50% smaller */
+    background-image: url('images/banner.jpg'); /* Path to your banner image */
+    background-size: cover; /* Ensure the banner image covers the entire div */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+}
+
+
+  
