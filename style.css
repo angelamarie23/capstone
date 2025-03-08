@@ -48,11 +48,13 @@ footer {
 }
 
 .banner {
-    height: 175px; /* Reduced height to make the banner 50% smaller */
-    background-image: url('images/banner.jpg'); /* Path to your banner image */
-    background-size: cover; /* Ensure the banner image covers the entire div */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    height: 450px; /* Adjust height as needed */
+    background-image: url('images/clouds.png'); /* Path to your clouds.png image */
+    background-size: cover; /* Ensures the banner image covers the entire div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image in the banner */
 }
+
 
 
   
